@@ -1,0 +1,24 @@
+{
+  "name": "Removedor de aviso",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Remove o aviso de limite de notícias gratuitas",
+  "homepage_url": "https://github.com/gabrielcedran",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "24": "icon.png",
+      "32": "icon.png"
+    },
+    "default_title": "Remover Aviso!"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
