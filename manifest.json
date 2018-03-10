@@ -6,7 +6,7 @@
   "homepage_url": "https://github.com/gabrielcedran",
   "background": {
     "scripts": [
-      "background.js"
+      "init.js"
     ],
     "persistent": true
   },
